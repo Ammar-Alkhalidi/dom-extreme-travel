@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-puppeteer": "^9.0.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCI-Webdev/spa-dom-extreme-travel",
+    "id": 809968416
+  }
+}
